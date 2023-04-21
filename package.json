@@ -1,0 +1,30 @@
+{
+  "name": "api-node-postgress",
+  "version": "1.0.0",
+  "description": "Api Node Js Sequalize and Postgress",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weizmanfabian/API-NODE-POSTGRESS.git"
+  },
+  "author": "Weizman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weizmanfabian/API-NODE-POSTGRESS/issues"
+  },
+  "homepage": "https://github.com/weizmanfabian/API-NODE-POSTGRESS#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.31.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
